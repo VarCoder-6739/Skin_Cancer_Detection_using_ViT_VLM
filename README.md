@@ -1,11 +1,10 @@
-# Explainable Skin Cancer Detection using Hybrid Attention Vision Transformers (HAVT) and a
-Vision Language Model 
+# Explainable Skin Cancer Detection using Hybrid Attention Vision Transformers (HAVT) framework and Vision Language Model (VLM)
 
 ## 📍
 - Developed a Hybrid attention framework for seven-class skin-lesion classification using HAM10000 (10,015 images),
 investigating pretrained ViT, Swin Transformer, DeiT and BEiT backbones.
 - Evaluated attention-map fusion and reduction from 100 to 49, 28, and 7 maps, resulting in seven class-associated
-maps; 92.62% accuracy based on an 80:20 train-test split.
+maps; 92.62% accuracy based on 80:20 train-test split. 
 - Generated attention heatmaps and integrated LlAMA 3.2 Vision Instruct (VLM) to provide text-based explanations
 using original image, predicted class and attention maps; focused on misclassifications with visually similar and
 under-represented classes.
