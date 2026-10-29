@@ -1,4 +1,4 @@
-#Explainable Skin Cancer Detection using Hybrid Attention Vision Transformers (HAVT) and a
+# Explainable Skin Cancer Detection using Hybrid Attention Vision Transformers (HAVT) and a
 Vision Language Model 
 
 ## 📍
