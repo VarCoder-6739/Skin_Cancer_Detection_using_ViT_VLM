@@ -55,12 +55,12 @@ pip install transformers timm scikit-learn numpy pandas matplotlib pillow jupyte
 
 For GPU-enabled PyTorch, choose the appropriate installation command for your system from the [official PyTorch installation guide](https://pytorch.org/get-started/locally/).
 
-### 4. Set Up Llama 3.2 Vision
+### 4. Set Up Llama 3.2 Vision:11B
 
 Install [Ollama](https://ollama.com/download), then download the vision model:
 
 ```bash
-ollama pull llama3.2-vision
+ollama run llama3.2-vision:11b
 ```
 
 Ensure Ollama is running before generating explanations with the Vision-Language Model.
